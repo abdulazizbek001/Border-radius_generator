@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/icon.png">
+    <title>Murabba: Border radius generator</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header">
+            <h1 class="header-title">Border radius generator</h1>
+        </header>
+        <main>
+            <span class="span-before"></span>
+            <section class="wrapper">
+                <div class="wrap">
+                    <p>Border-top-right-radius</p>
+                    <br>
+                    <input class="input-y" type="range" value="0" min="0" max="500">
+                    <p>Border-bottom-right-radius</p>
+                    <br>
+                    <input class="input-x" type="range" value="0" min="0" max="500">
+                    <p>Border-bottom-left-radius</p>
+                    <br>
+                    <input class="input-d" type="range" value="0" min="0" max="500">
+                    <p>Border-top-left-radius</p>
+                    <br>
+                    <input class="input-z" type="range" value="0" min="0" max="500">
+                    <div class="rezults">
+                        <span class="rezult"></span>
+                        <span class="rezult1"></span>
+                        <span class="rezult2"></span>
+                        <span class="rezult3"></span>
+                        <button class="rezults-btn">Copy</button>
+                    </div>
+                </div>
+                <div class="box"></div>
+            </section>
+            <div class="copy-box">
+                <p>Copied to clipboard 👍</p>
+            </div>
+        </main>
+    </div>
+
+    <script src="./js/app.js"></script>
+
+</body>
+
+</html>
